@@ -3,6 +3,7 @@ import play from "../../Assets/svg/Button-Play.svg";
 import image from "../../Assets/png/peoples-and-world.png";
 
 import st from "./Banner.module.css";
+import Button from "../Button/Button";
 
 export function Banner() {
   return (
@@ -21,7 +22,7 @@ export function Banner() {
             possible{" "}
           </p>
           <div className={st.buttons}>
-            <button className={st.started}>Get started</button>
+            <Button name={"Get started"} />
             <button className={st.play}>
               <span>
                 <img src={play} alt="" /> Watch demo

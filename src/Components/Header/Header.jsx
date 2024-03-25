@@ -1,4 +1,5 @@
 import logo from "../../Assets/svg/Logo.svg";
+import Button from '../Button/Button';
 import st from "./Header.module.css";
 
 export function Header() {
@@ -29,7 +30,7 @@ export function Header() {
 
         <div className={st.buttons}>
           <button className={st.logIn}>Log In</button>
-          <button className={st.signUp}>Sign Up</button>
+          <Button name={"Sign Up"} />
         </div>
       </header>
     </>
