@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1184px;
+  max-width: 80%;
   margin: 0 auto;
   margin-top: 35px;
 }

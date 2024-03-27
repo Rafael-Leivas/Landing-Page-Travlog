@@ -2,7 +2,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1184px;
+  max-width: 80%;
   margin: 0 auto;
   height: 160px;
+}
+
+.firstCards {
+  display: flex;
+  height: 570px;
+  align-items: center;
+}
+
+.contentCategories {
+  width: 444px;
+  background-color: blue;
+}
+
+.contentCategories p {
+  color: #f85e9f;
+  font-size: 1.4em;
+}
+
+.contentCategories h2 {
+  font-size: 2.75em;
+}
+
+.cardsCategories ul {
+  display: flex;
+  gap: 20px;
 }
